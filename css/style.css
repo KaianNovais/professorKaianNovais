@@ -3,7 +3,7 @@
   padding: 0;
 }
 .header {
-  background-color: darkslategray;
+  background-color: #212529;
   width: 100%;
   height: 250px;
 }
@@ -56,7 +56,7 @@ img {
 }
 
 .curriculo {
-  background-color: darkslategray;
+  background-color: #212529;
   width: 100%;
   height: 100%;
   padding: 20px;
@@ -65,10 +65,10 @@ img {
 }
 span {
   content: "\2713";
-  color: springgreen;
+  color: whitesmoke;
   border: 20px;
-  font-weight: 300;
   font-family: verdana;
+  font-size: large;
 }
 
 .formacao {
@@ -80,7 +80,8 @@ span {
 .flex-container {
   display: flex;
   flex-direction: row;
-  font-size: 18px;
+  font-family: verdana;
+  font-size: large;
   text-align: justify;
 }
 
