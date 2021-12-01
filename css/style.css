@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: darkslategray;
+  width: 100%;
+  height: 250px;
+}
+.titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.subtitulo {
+  color: white;
+  font-family: verdana;
+  font-size: large;
+  text-align: center;
+  padding-top: 30px;
+}
+#botao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.corpo {
+  padding: 30px;
+}
+video {
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: auto;
+}
+img {
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: auto;
+}
+.corpo {
+  width: 100%;
+}
+
+.curriculo {
+  background-color: darkslategray;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  font-family: Verdana;
+  font-style: italic;
+}
+span {
+  content: "\2713";
+  color: springgreen;
+  border: 20px;
+  font-weight: 300;
+  font-family: verdana;
+}
+
+.formacao {
+  background-color: aqua;
+  width: 260px;
+  padding: 8px;
+  font-weight: bold;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 33%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 33%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
